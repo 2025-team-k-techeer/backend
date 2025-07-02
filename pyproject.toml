@@ -1,0 +1,9 @@
+# backend/pyproject.toml
+[project]
+name = "backend"
+version = "0.1.0"
+
+[project.dependencies]
+fastapi = "*"
+uvicorn = { extras = ["standard"], version = "*" }
+
